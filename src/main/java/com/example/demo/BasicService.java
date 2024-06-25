@@ -13,6 +13,7 @@ public class BasicService {
         return "My brother from another mother!";
     }
 
+
     public int calculateExp(int base, int pow) {
         int result = 1;
         logger.info("Starting calculate " + base + "^" + pow);
@@ -25,7 +26,7 @@ public class BasicService {
     }
 
     public void exception(){
-        RuntimeException exception = new RandomError("You made an error, just like when you downloaded League of Legends");
+        RuntimeException exception = new RandomError("Random error ");
         logger.warn("this exception has been thrown: "+ exception);
         throw exception;
     }
