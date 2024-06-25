@@ -10,7 +10,7 @@ public class BasicService {
     Logger logger = LoggerFactory.getLogger(BasicService.class);
 
     public String greetings(){
-        return "My brother from another mother!";
+        return "Wellcome!";
     }
 
 
